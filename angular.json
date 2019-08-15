@@ -32,6 +32,7 @@
               }
             ],
             "styles": [
+              "node_modules/ng-zorro-antd-mobile/src/ng-zorro-antd-mobile.min.css",
               {
                 "input": "src/theme/variables.scss"
               },
@@ -178,10 +179,30 @@
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "spec": false
     },
     "@ionic/angular-toolkit:page": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "spec": false
+    },
+    "@ionic/angular-toolkit:class": {
+      "spec": false
+    },
+    "@ionic/angular-toolkit:directive": {
+      "spec": false
+    },
+    "@ionic/angular-toolkit:guard": {
+      "spec": false
+    },
+    "@ionic/angular-toolkit:module": {
+      "spec": false
+    },
+    "@ionic/angular-toolkit:pipe": {
+      "spec": false
+    },
+    "@ionic/angular-toolkit:service": {
+      "spec": false
     }
   }
 }
