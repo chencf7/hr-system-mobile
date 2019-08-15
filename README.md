@@ -21,4 +21,9 @@ RouterModule.forRoot(routes)
 
 4. 引入ng-zorro-mobile，参考官网在ionic中使用，自行构建
 
-5. 
+5. angular项目入口index.html内部声明的组件<app-root></app-root>是通过main.ts连接
+```javascript
+// main.ts
+import { AppModule } from './app/pages/app/app.module';
+```
+6. 安装typescript-eslint后如何继续配置，使用eslint检查typescript
