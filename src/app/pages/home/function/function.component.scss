@@ -36,11 +36,10 @@
 .function-content .list-md{
   padding-bottom: 0;
 }
-.function-content .am-grid{
+.function-content /deep/ .am-grid{
   height: 115px;
 }
-.function-content .am-grid-item{
+.function-content /deep/ .am-flexbox{
   height: 115px;
-}
-
+} 
 
