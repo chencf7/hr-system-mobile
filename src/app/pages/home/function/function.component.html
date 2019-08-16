@@ -6,14 +6,18 @@
     <ion-title class="hrmobile-toolbar-text">功能</ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content class="function-content" color="red">
+<ion-content class="function-content" color="lite">
   <ion-list *ngFor="let entity of fundata">
       <ion-item>
-          <!-- <Icon type="assets/images/titleico.svg"></Icon> -->
-          <img src="assets/images/titleico.svg" alt="" />
-          <ion-label class="title">{{entity.title}}</ion-label>
+        <!-- <Icon type="assets/images/titleico.svg"></Icon> -->
+        <img src="assets/images/titleico.svg" alt="" />
+        <ion-label class="title">{{entity.title}}</ion-label>
       </ion-item>
-      <Grid [data]="entity.content" [columnNum]="entity.column" [hasLine]="false"
-            (OnClick)="clickmenu($event,entity.modual)"></Grid>
+      <Grid
+          [data]="entity.content"
+          [columnNum]="entity.column"
+          [hasLine]="false"
+          (onClick)="clickmenu($event,entity.modual)"
+      ></Grid>
   </ion-list>
 </ion-content>

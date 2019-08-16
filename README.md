@@ -61,3 +61,30 @@ npm lint命令通过package.json配置执行ng lint， ng lint的配置相见ang
 </ion-toolbar>
 ```
 另外注意，ionic，header添加背景图片必须配置配色方案，color="primary|lite"
+
+8. ng/ionic脚手架创建文件
+* 带有路由的模块
+ng/ionic g module [路径/模块名称] --routing
+可通过route的方式引用pages
+```javascript
+const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  { path: 'leave', loadChildren: './leave/leave.module#LeavePageModule' }
+];
+```
+* 创建page
+可通过route的方式加载component
+```javascript
+const routes: Routes = [
+  {
+    path: '',
+    component: HomePage,
+    children: [
+      { path: 'function', component: FunctionComponent }, 
+      { path: '', redirectTo: '/home/function', pathMatch: 'full' }
+    ]
+  }
+];
+```
+* 创建component
