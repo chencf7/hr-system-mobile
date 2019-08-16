@@ -1,7 +1,9 @@
 <ion-header>
   <ion-toolbar class="hr-toolbar-bg">
     <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
+      <ion-button (click)="goBack()" style="color: white">
+        <ion-icon [name]="'arrow-back'" [mode]="'md'"></ion-icon>
+      </ion-button>
     </ion-buttons>
     <ion-title class="hr-toolbar-text">新增请假条</ion-title>
   </ion-toolbar>
