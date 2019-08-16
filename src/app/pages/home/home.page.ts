@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() { 
+  constructor() {
     console.info('123');
   }
 
