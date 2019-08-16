@@ -89,10 +89,11 @@ const routes: Routes = [
 ```
 * 创建component
 
-8. <font color="Crimson">scss编译深度选择器 /deep/失败，报错expect 符号.
+8. <font color="Crimson">scss编译深度选择器 /deep/失败</font>
+报错expect 符号.
 或者使用等价的深度选择器 >>> 不报错，但不生效，原因必须安装node-sass来编译scss文件
 npm i node-sass，命令执行完成，重新start项目即可使用深度选择器（/deep/===>>>）
 css文件内部不允许直接使用深度选择器
 
 安装node-sass报错的话，换淘宝镜像安装，或者使用cnpm install node-sass --save-dev
-最好node-sass安装在依赖文件package.json内</font>
+最好node-sass安装在依赖文件package.json内
