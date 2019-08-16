@@ -32,9 +32,9 @@ import { AppModule } from './app/pages/app/app.module';
     执行npm lint命令，脚手架可参照tslint.json配置的规则检查全局的项目
 npm lint命令通过package.json配置执行ng lint， ng lint的配置相见angular.json
 * 使用eslint检查，eslint检查angular项目并不适配，不推荐
-<1> npm i -d eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-<2> 在项目根目录下添加配置项.eslintrc.js
-<3> 在package.json的配置项scripts添加
++ <1> npm i -d eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
++ <2> 在项目根目录下添加配置项.eslintrc.js
++ <3> 在package.json的配置项scripts添加
 "es-lint": "./node_modules/.bin/eslint src/**/*.{ts,js}"  //此处.{ts,js}逗号后面不能有空格
 执行npm run es-lint即可
 若仅执行.eslintrc.js里面的rool的规则，不需要执行typescript-eslint的配置项规则，可注释
@@ -46,11 +46,11 @@ npm lint命令通过package.json配置执行ng lint， ng lint的配置相见ang
 
 7. 在scss文件中引用背景图片的问题
 ```css
-/* 原因时scss是预编译的，编译背景图片最终的引用路径是http:localhost:4200/图片名称.jpg
+/* 原因时scss是预编译的，编译背景图片最终的引用路径是http:localhost:4200/**\/图片名称.jpg
 所以scss的url路径直接为编译后的相对路径
 */
 .hrmobile-toolbar-bg{
-  background: url(/toubujianbianbj.png) no-repeat center;
+  background: url(/assets/images/toubujianbianbj.png) no-repeat center;
   background-size: 100%;
 }
 ```

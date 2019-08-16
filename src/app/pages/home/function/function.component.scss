@@ -1,5 +1,6 @@
 .hrmobile-toolbar-bg{
-  // background: url(/toubujianbianbeijing.png) no-repeat center;
+  //style="background: url(assets/images/toubujianbianbeijing.png) no-repeat center;"
+  background: url(/assets/images/toubujianbianbeijing.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -32,8 +33,14 @@
 }
 
 // 深度选择器无效，直接正常使用，不用深度选择器 >>> === /deep/
+.function-content .list-md{
+  padding-bottom: 0;
+}
 .function-content .am-grid{
-  height: 200px;
+  height: 115px;
+}
+.function-content .am-grid-item{
+  height: 115px;
 }
 
 
