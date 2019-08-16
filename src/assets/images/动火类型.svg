@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>动火类型</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000125 0 18.3333333 0 18.3333333 19.9999583 0.000125 19.9999583"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增危险作业申请02" transform="translate(-20.000000, -593.000000)">
+            <g id="动火类型" transform="translate(20.000000, 593.000000)">
+                <g id="Group-3" transform="translate(1.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M0.000125,-4.16666667e-05 L0.438041667,4.88579167 L5.64304167,8.419125 C6.80595833,9.27954167 7.500125,10.6570417 7.500125,12.1037083 L7.500125,17.2220417 L10.8334583,19.9999583 L10.8334583,12.0732917 C10.8334583,10.644125 11.5142917,9.276625 12.641375,8.425375 L17.895125,4.78245833 L18.3334583,-4.16666667e-05 L0.000125,-4.16666667e-05 Z" id="Fill-1" fill="#FA6484" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

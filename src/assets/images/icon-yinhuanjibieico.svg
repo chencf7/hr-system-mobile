@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>隐患级别ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 22 20 22 20 0 0 0"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -400.000000)">
+            <g id="隐患级别ico" transform="translate(20.000000, 400.000000)">
+                <path d="M0,0 L0,16.9583333 C0,19.738125 2.05625,22 4.58333333,22 L15.4166667,22 C17.94375,22 20,19.738125 20,16.9583333 L20,0 L0,0 Z" id="Fill-1" fill="#5997D1"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)" points="3.58333333 4.58333333 16.4166667 4.58333333 16.4166667 3.66666667 3.58333333 3.66666667"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" mask="url(#mask-2)" points="7.81576667 10.6952083 10.0001833 9.48566667 10.0001833 17.875 10.91685 17.875 10.91685 7.931 7.37164167 9.893125"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

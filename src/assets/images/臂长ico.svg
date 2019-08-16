@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>臂长ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="27、新增设备" transform="translate(-20.000000, -333.000000)">
+            <g id="Group-4" transform="translate(-1.000000, 325.000000)">
+                <g id="臂长ico" transform="translate(21.000000, 9.000000)">
+                    <g id="Group-5">
+                        <path d="M10,18.75 C5.175625,18.75 1.25,14.824375 1.25,10 C1.25,5.175625 5.175625,1.25 10,1.25 C14.824375,1.25 18.75,5.175625 18.75,10 C18.75,14.824375 14.824375,18.75 10,18.75 M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0" id="Fill-1" fill="#B0BEC5"></path>
+                        <g id="Group-8" transform="translate(3.000000, 8.000000)" fill-rule="nonzero" stroke="#F44336" stroke-linecap="square">
+                            <path d="M2.5,2.5 L11.5,2.5" id="Line-12"></path>
+                            <path d="M1.5,0.5 L1.5,4.5" id="Line-2"></path>
+                            <path d="M12.5,0.5 L12.5,4.5" id="Line-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

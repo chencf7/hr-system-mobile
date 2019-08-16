@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>旁站-旁站时间</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="19、旁站记录卡片列表" transform="translate(-22.000000, -158.000000)" fill="#000000">
+            <g id="Group-5" transform="translate(0.000000, 79.000000)">
+                <g id="旁站-旁站时间" transform="translate(22.000000, 79.000000)">
+                    <path d="M6.5,12.4583333 C3.21452083,12.4583333 0.541666667,9.78547917 0.541666667,6.5 C0.541666667,3.21452083 3.21452083,0.541666667 6.5,0.541666667 C9.78547917,0.541666667 12.4583333,3.21452083 12.4583333,6.5 C12.4583333,9.78547917 9.78547917,12.4583333 6.5,12.4583333 M6.5,0 C2.9160625,0 0,2.9160625 0,6.5 C0,10.0839375 2.9160625,13 6.5,13 C10.0839375,13 13,10.0839375 13,6.5 C13,2.9160625 10.0839375,0 6.5,0" id="Fill-1"></path>
+                    <polygon id="Fill-3" transform="translate(7.447917, 4.739583) scale(-1, 1) translate(-7.447917, -4.739583) " points="8.66666667 6.77083333 5.6875 6.77083333 5.6875 7.3125 9.20833333 7.3125 9.20833333 2.16666667 8.66666667 2.16666667"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

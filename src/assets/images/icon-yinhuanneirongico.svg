@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>隐患内容ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 21.7482838 20 21.7482838 20 0 0 0"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -214.000000)">
+            <g id="隐患内容ico" transform="translate(20.000000, 214.000000)">
+                <path d="M18.9473684,15.8581236 C18.9473684,18.6061098 16.35,20.8421053 13.1578947,20.8421053 L4.21052632,20.8421053 L4.21052632,3.62471396 L18.9473684,3.62471396 L18.9473684,15.8581236 Z M16.8421053,2.71853547 L16.8421053,0 L0,0 L0,19.0297483 L3.15789474,19.0297483 L3.15789474,21.7482838 L13.1578947,21.7482838 C16.9305263,21.7482838 20,19.1058673 20,15.8581236 L20,2.71853547 L16.8421053,2.71853547 Z" id="Fill-1" fill="#6CB17A"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill="#68AD76" mask="url(#mask-2)" points="7.10526316 9.0617849 13.7368421 9.0617849 13.7368421 8.15560641 7.10526316 8.15560641"></polygon>
+                <polygon id="Fill-5" fill="#6AB075" mask="url(#mask-2)" points="7.10526316 12.6864989 13.7368421 12.6864989 13.7368421 11.7803204 7.10526316 11.7803204"></polygon>
+                <polygon id="Fill-6" fill="#69AE78" mask="url(#mask-2)" points="7.10526316 16.3112128 11.8421053 16.3112128 11.8421053 15.4050343 7.10526316 15.4050343"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

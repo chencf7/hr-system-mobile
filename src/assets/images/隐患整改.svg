@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>隐患整改</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16 15 38.5 15 38.5 41.9999438 16 41.9999438"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="功能页" transform="translate(-231.000000, -122.000000)">
+            <g id="Group-7" transform="translate(0.000000, 77.000000)">
+                <g id="隐患整改" transform="translate(231.000000, 45.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle-5" fill="#F4B551" fill-rule="nonzero" x="0" y="0" width="55" height="55" rx="27.5"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M37.375,26.6048813 C37.375,36.4953188 28.7018125,40.2471938 27.2550625,40.8040688 C25.8679375,40.2415688 17.125,36.3057563 17.125,26.6048813 L17.125,18.0042563 L27.25,16.1423813 L37.375,18.0042563 L37.375,26.6048813 Z M27.25,14.9999437 L16,17.0693813 L16,26.6048813 C16,37.8717563 26.95075,41.8947563 27.0615625,41.9341313 L27.24775,41.9999438 L27.4339375,41.9352563 C27.54475,41.8970063 38.5,37.9758188 38.5,26.6048813 L38.5,17.0693813 L27.25,14.9999437 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <polygon id="Fill-4" fill="#FFFFFF" points="26.6875 28.5 27.8125 28.5 28.09375 20.625 26.40625 20.625"></polygon>
+                    <path d="M26.125,31.8575625 C26.125,32.478 26.629,32.980875 27.25,32.980875 C27.871,32.980875 28.375,32.478 28.375,31.8575625 C28.375,31.237125 27.871,30.73425 27.25,30.73425 C26.629,30.73425 26.125,31.237125 26.125,31.8575625" id="Fill-6" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

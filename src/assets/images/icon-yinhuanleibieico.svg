@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>隐患类别ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -441.000000)">
+            <g id="隐患类别ico" transform="translate(20.000000, 441.000000)">
+                <polygon id="Fill-1" fill="#F06939" points="1.765125 7.10017 10.000125 2.90032 18.2347083 7.10017 10.000125 11.30002"></polygon>
+                <polygon id="Fill-2" fill="#F06A35" points="10.000125 18.099595 1.01970833 13.519795 0.646791667 14.280545 10.000125 19.00017 19.3530417 14.280545 18.980125 13.519795"></polygon>
+                <polygon id="Fill-3" fill="#ED6B37" points="10 14.699765 1.01958333 10.119965 0.647083333 10.88029 10 15.650065 19.3529167 10.88029 18.9804167 10.119965"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

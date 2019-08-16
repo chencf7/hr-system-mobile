@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="77px" viewBox="0 0 94 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>较大安全隐患背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="93.7" height="77"></rect>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20、项目首页" transform="translate(-188.000000, -325.000000)">
+            <g id="较大安全隐患背景" transform="translate(188.000000, 325.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#F5A623" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group-8" opacity="0.299330357" mask="url(#mask-2)" fill="#FFC970">
+                    <g transform="translate(-8.000000, 22.000000)">
+                        <path d="M55.1,29.914805 C55.1,55.410155 32.74245,65.081655 29.01305,66.517155 C25.43735,65.067155 2.9,54.921505 2.9,29.914805 L2.9,7.744305 L29,2.944805 L55.1,7.744305 L55.1,29.914805 Z M29,-0.000145 L0,5.334405 L0,29.914805 C0,58.958305 28.2286,69.328705 28.51425,69.430205 L28.9942,69.599855 L29.47415,69.433105 C29.7598,69.334505 58,59.226555 58,29.914805 L58,5.334405 L29,-0.000145 Z" id="Fill-1"></path>
+                        <polygon id="Fill-4" points="27.55 34.8 30.45 34.8 31.175 14.5 26.825 14.5"></polygon>
+                        <path d="M26.1,43.45505 C26.1,45.0544 27.3992,46.3507 29,46.3507 C30.6008,46.3507 31.9,45.0544 31.9,43.45505 C31.9,41.8557 30.6008,40.5594 29,40.5594 C27.3992,40.5594 26.1,41.8557 26.1,43.45505" id="Fill-6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

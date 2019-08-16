@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>是否罚款ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -628.000000)">
+            <g id="是否罚款ico" transform="translate(20.000000, 628.000000)">
+                <path d="M2.500125,2.9998375 L2.500125,5.8123375 L0.000125,5.8123375 L0.000125,17.9998375 L17.500125,17.9998375 L17.500125,15.1873375 L19.9997083,15.1873375 L19.9997083,2.9998375 L2.500125,2.9998375 Z M3.33345833,3.81274375 L19.1667917,3.81274375 L19.1667917,14.1127437 L17.500125,14.1127437 L17.500125,5.68508795 L3.33345833,5.68508795 L3.33345833,3.81274375 Z" id="Fill-1" fill="#4A90E2"></path>
+                <text id="¥" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="5" y="16">¥</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

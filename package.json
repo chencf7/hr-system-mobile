@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href ./ --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -28,6 +28,7 @@
     "core-js": "^2.5.4",
     "ng-zorro-antd-mobile": "^0.12.5",
     "rxjs": "~6.5.1",
+    "scss-tokenizer": "^0.4.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },

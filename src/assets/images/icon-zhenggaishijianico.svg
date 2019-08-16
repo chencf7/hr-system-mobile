@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>整改时间ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-04-提交飞检" transform="translate(-35.000000, -171.000000)">
+            <g id="Group-5" transform="translate(17.000000, 105.000000)">
+                <g id="整改时间ico" transform="translate(18.000000, 66.000000)">
+                    <path d="M10,0 C4.48625,0 0,4.48625 0,10 C0,15.51375 4.48625,20 10,20 C15.51375,20 20,15.51375 20,10 C20,4.48625 15.51375,0 10,0" id="Fill-1" fill="#80BACC"></path>
+                    <polygon id="Fill-3" fill="#FFFFFF" points="10 10 5.41666667 10 5.41666667 10.8333333 10.8333333 10.8333333 10.8333333 2.91666667 10 2.91666667"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

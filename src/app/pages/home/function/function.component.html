@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="lite" class="hrmobile-toolbar-bg" style="background: url(assets/images/toubujianbianbeijing.png) no-repeat center;">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="hrmobile-toolbar-text">功能</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="function-content" color="red">
+  <ion-list *ngFor="let entity of fundata">
+      <ion-item>
+          <!-- <Icon type="assets/images/titleico.svg"></Icon> -->
+          <img src="assets/images/titleico.svg" alt="" />
+          <ion-label class="title">{{entity.title}}</ion-label>
+      </ion-item>
+      <Grid [data]="entity.content" [columnNum]="entity.column" [hasLine]="false"
+            (OnClick)="clickmenu($event,entity.modual)"></Grid>
+  </ion-list>
+</ion-content>

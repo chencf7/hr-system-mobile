@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>安监部</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 18.3333333 0 18.3333333 21.9999083 0 21.9999083"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增危险作业申请03" transform="translate(-20.000000, -312.000000)">
+            <g id="安监部" transform="translate(21.000000, 312.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M9.16666667,-9.16666667e-05 L0,1.92674167 L0,9.45715833 C0,18.6366583 8.92283333,21.9142 9.013125,21.9462833 L9.164375,21.9999083 L9.31654167,21.9472 C9.40683333,21.9160333 18.3333333,18.72145 18.3333333,9.45715833 L18.3333333,1.92674167 L9.16666667,-9.16666667e-05 Z" id="Fill-1" fill="#8DCF4A" mask="url(#mask-2)"></path>
+                <polygon id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)" points="13.4817647 6 8.61176471 14.4532353 4.42117647 10.3314706 4 10.7455882 8.74411765 15.4117647 14 6.28911765"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="75px" viewBox="0 0 105 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>首页-塔吊</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="105" height="75" rx="8"></rect>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-134.000000, -172.000000)">
+            <g id="首页-塔吊" transform="translate(134.000000, 172.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FAF4FE" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M103.80535,69.6 L86.70035,69.6 L86.18115,67.675 L99.06875,49.1312 L80.71415,61.9044 C80.76695,61.9308 80.81315,61.9682 80.86375,61.9946 C79.39415,61.2554 77.75735,60.8 75.99955,60.8 C70.69755,60.8 66.32395,64.595 65.30095,69.6 L48.19595,69.6 C47.66575,67.4176 47.39955,65.2088 47.39955,63 C47.39955,47.2304 60.22995,34.4 75.99955,34.4 C91.76915,34.4 104.59955,47.2304 104.59955,63 C104.59955,65.2088 104.33335,67.4176 103.80535,69.6 Z M69.91215,69.6 C70.82295,67.059 73.14175,65.2 75.99955,65.2 C78.85735,65.2 81.17835,67.059 82.08915,69.6 L69.91215,69.6 Z M75.99955,30 C57.77475,30 42.99955,44.7752 42.99955,63 C42.99955,66.8632 43.69915,70.5548 44.91795,74 L107.08115,74 C108.30215,70.5548 108.99955,66.8632 108.99955,63 C108.99955,44.7752 94.22655,30 75.99955,30 Z" id="Fill-1" fill="#F0E2F9" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

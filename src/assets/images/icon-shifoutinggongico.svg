@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>是否停工ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -868.000000)">
+            <g id="是否停工ico" transform="translate(20.000000, 868.000000)">
+                <g id="Group-5" transform="translate(0.000000, 1.000000)">
+                    <path d="M10,18.75 C5.175625,18.75 1.25,14.824375 1.25,10 C1.25,5.175625 5.175625,1.25 10,1.25 C14.824375,1.25 18.75,5.175625 18.75,10 C18.75,14.824375 14.824375,18.75 10,18.75 M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0" id="Fill-1" fill="#B0BEC5"></path>
+                    <path d="M15,8.75 L5,8.75 C4.31,8.75 3.75,9.31 3.75,10 C3.75,10.69 4.31,11.25 5,11.25 L15,11.25 C15.69,11.25 16.25,10.69 16.25,10 C16.25,9.31 15.69,8.75 15,8.75" id="Fill-3" fill="#F44336"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

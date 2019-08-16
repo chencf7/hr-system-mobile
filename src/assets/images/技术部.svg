@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>技术部</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 15.8333333 20 15.8333333 20 0 0 0"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增危险作业申请03" transform="translate(-20.000000, -230.000000)">
+            <g id="技术部" transform="translate(20.000000, 233.000000)">
+                <path d="M19.1666667,15 L0.833333333,15 L0.833333333,13.8483333 L2.34083333,10.8333333 L17.6679167,10.8333333 L19.1666667,13.8479167 L19.1666667,15 Z M18.3333333,10.3 L18.3333333,2.08333333 C18.3333333,0.934583333 17.39875,0 16.25,0 L3.75,0 C2.60125,0 1.66666667,0.934583333 1.66666667,2.08333333 L1.66666667,10.3183333 L0,13.6516667 L0,15.8333333 L20,15.8333333 L20,13.6520833 L18.3333333,10.3 Z" id="Fill-1" fill="#4A90E2"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill="#4A90E2" mask="url(#mask-2)" points="7.5 14.1666667 12.5 14.1666667 12.5 13.3333333 7.5 13.3333333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

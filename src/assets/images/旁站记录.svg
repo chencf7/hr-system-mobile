@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>旁站记录</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="17、危险作业申请详情" transform="translate(-278.000000, -41.000000)" fill-rule="nonzero" stroke="#FFFFFF">
+            <g id="旁站记录" transform="translate(278.000000, 41.000000)">
+                <path d="M7.5,1.5 L13.5,1.5" id="Line-3" stroke-linecap="square"></path>
+                <path d="M7.5,6.5 L13.5,6.5" id="Line-3" stroke-linecap="square"></path>
+                <path d="M7.5,11.5 L11.5,11.5" id="Line-3" stroke-linecap="square"></path>
+                <rect id="Rectangle-4" x="0.5" y="7.5" width="4" height="4"></rect>
+                <rect id="Rectangle-4" x="0.5" y="1.5" width="4" height="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

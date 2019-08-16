@@ -1,0 +1,39 @@
+.hrmobile-toolbar-bg{
+  // background: url(/toubujianbianbeijing.png) no-repeat center;
+  background-size: 100%;
+}
+
+.hrmobile-toolbar-text {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  // letter-spacing: -0.34px;
+  text-align: center;
+}
+
+.function-content{
+  background-color: #EBF4F9;
+
+  .title-prev {
+    width: 3px;
+    height: 1rem;
+    background: #2c94ce;
+    margin-right: 1rem;
+  }
+  .title {
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  img{
+    height: 13px;
+    width: 4px;
+  }
+}
+
+// 深度选择器无效，直接正常使用，不用深度选择器 >>> === /deep/
+.function-content .am-grid{
+  height: 200px;
+}
+
+

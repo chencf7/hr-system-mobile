@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>整改责任人ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.208495858 0 8.95826902 0 8.95826902 10.8331667 0.208495858 10.8331667"></polygon>
+        <polygon id="path-3" points="0 0.41 19.9998333 0.41 19.9998333 7.91666667 0 7.91666667"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-04-提交飞检" transform="translate(-35.000000, -216.000000)">
+            <g id="Group-5" transform="translate(17.000000, 105.000000)">
+                <g id="整改责任人ico" transform="translate(18.000000, 111.000000)">
+                    <g id="Group-3" transform="translate(5.416667, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M0.66,7.01275 C1.08083333,9.33358333 2.62125,10.8331667 4.58416667,10.8331667 C6.55291667,10.8331667 8.05625,9.37108333 8.50791667,7.01775 C8.55125,6.79233333 8.93375,4.80441667 8.95416667,4.34816667 C9.00375,3.24066667 8.6025,2.18233333 7.82458333,1.369 C6.9925,0.499 5.81166667,-0.000166666667 4.58416667,-0.000166666667 C3.34333333,-0.000166666667 2.15083333,0.509416667 1.3125,1.39691667 C0.542083333,2.21275 0.1525,3.26275 0.215,4.35358333 C0.240833333,4.80608333 0.617916667,6.7915 0.66,7.01275" id="Fill-1" fill="#FFC35E" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 12.083333)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M19.5335833,4.00916667 C19.3335833,2.84291667 18.3494167,1.95166667 16.8810833,1.62041667 L9.99983333,0.41 L3.10316667,1.63 C1.67983333,1.9275 0.669416667,2.84083333 0.464,4.02958333 L-0.000166666667,7.91666667 L19.9998333,7.91666667 L19.5335833,4.00916667 Z" id="Fill-4" fill="#FFC650" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

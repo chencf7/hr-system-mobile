@@ -42,3 +42,22 @@ npm lint命令通过package.json配置执行ng lint， ng lint的配置相见ang
 // extends: ['plugin:@typescript-eslint/recommended'], //定义文件继承的子规范
 // plugins: ['@typescript-eslint'],  //定义了该eslint文件所依赖的插件
 ```
+参考网址：https://segmentfault.com/a/1190000019661168
+
+7. 在scss文件中引用背景图片的问题
+```css
+/* 原因时scss是预编译的，编译背景图片最终的引用路径是http:localhost:4200/图片名称.jpg
+所以scss的url路径直接为编译后的相对路径
+*/
+.hrmobile-toolbar-bg{
+  background: url(/toubujianbianbj.png) no-repeat center;
+  background-size: 100%;
+}
+```
+直接在html文件中引用，则需要当权目录的相对路径
+```html
+<ion-toolbar color="primary"
+    style="background: url('assets/images/toubujianbianbeijing.png') no-repeat center;background-size: 100%;">
+</ion-toolbar>
+```
+另外注意，ionic，header添加背景图片必须配置配色方案，color="primary|lite"

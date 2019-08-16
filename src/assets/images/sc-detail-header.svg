@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="45px" viewBox="0 0 335 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>明细标题背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7E6BFC" offset="0%"></stop>
+            <stop stop-color="#5EB7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="安全隐患整改" transform="translate(-20.000000, -260.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="明细标题背景" transform="translate(20.000000, 260.000000)">
+                <rect id="Rectangle" x="0" y="0" width="335" height="40" rx="5"></rect>
+                <rect id="Rectangle" x="0" y="5" width="335" height="40"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="45px" viewBox="0 0 110 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>公司首页-背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16、公司首页" transform="translate(-10.000000, -147.000000)">
+            <g id="公司首页-背景" transform="translate(10.000000, 147.000000)">
+                <rect id="Rectangle-3" fill="#4A90E2" fill-rule="nonzero" x="0" y="0" width="110" height="45" rx="2"></rect>
+                <path d="M64,3 L64,43.001 L60,43.001 L60,45 L106,45 L106,43.001 L102.001,43.001 L102.001,29 L92.001,29 L92.001,43.001 L88,43.001 L88,19 L78,19 L78,43.001 L74.001,43.001 L74.001,3 L64,3 Z M66.001,43.001 L72,43.001 L72,5.001 L66.001,5.001 L66.001,43.001 Z M80,43.001 L86,43.001 L86,21 L80,21 L80,43.001 Z M94.001,43.001 L100,43.001 L100,31 L94.001,31 L94.001,43.001 Z" id="Fill-1" fill="#66A1E7" opacity="0.450948661"></path>
+            </g>
+        </g>
+    </g>
+</svg>

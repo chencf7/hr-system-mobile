@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>功率ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="27、新增设备" transform="translate(-20.000000, -374.000000)">
+            <g id="Group-4" transform="translate(-1.000000, 366.000000)">
+                <g id="功率ico" transform="translate(21.000000, 9.000000)">
+                    <g id="Group-5">
+                        <path d="M10,18.75 C5.175625,18.75 1.25,14.824375 1.25,10 C1.25,5.175625 5.175625,1.25 10,1.25 C14.824375,1.25 18.75,5.175625 18.75,10 C18.75,14.824375 14.824375,18.75 10,18.75 M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0" id="Fill-1" fill="#B0BEC5"></path>
+                        <path d="M7.633,8.002 L8.669,8.002 L6.471,10.144 L8.998,13 L7.892,13 L5.918,10.683 L5.309,11.278 L5.309,13 L4.49,13 L4.49,8.002 L5.309,8.002 L5.309,10.361 L7.633,8.002 Z M9.033,8.002 L9.957,8.002 L10.895,11.803 L10.923,11.803 L11.91,8.002 L12.757,8.002 L13.744,11.803 L13.772,11.803 L14.71,8.002 L15.634,8.002 L14.192,13 L13.324,13 L12.351,9.241 L12.323,9.241 L11.343,13 L10.468,13 L9.033,8.002 Z" id="KW" fill="#F44336"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

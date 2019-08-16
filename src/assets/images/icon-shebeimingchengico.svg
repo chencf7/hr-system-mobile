@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>设备名称ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -99.000000)">
+            <g id="设备名称ico" transform="translate(20.000000, 100.000000)">
+                <path d="M16.75,0 L5.5,0 C4.119375,0 3,1.119375 3,2.5 L4.25,2.5 C4.25,1.81 4.810625,1.25 5.5,1.25 L16.75,1.25 C17.44,1.25 18,1.81 18,2.5 L18,13.75 C18,14.44 17.44,15 16.75,15 L16.75,16.25 C18.130625,16.25 19.25,15.130625 19.25,13.75 L19.25,2.5 C19.25,1.119375 18.130625,0 16.75,0" id="Fill-1" fill="#DC9F26"></path>
+                <path d="M13.75,4 L2.5,4 C1.119375,4 0,5.119375 0,6.5 L0,17.75 C0,19.130625 1.119375,20.25 2.5,20.25 L13.75,20.25 C15.130625,20.25 16.25,19.130625 16.25,17.75 L16.25,6.5 C16.25,5.119375 15.130625,4 13.75,4 Z" id="Fill-3" fill="#FFC655"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-6"></g>
+                <path d="M4,15.75 L9,15.75 L9,14.5 L4,14.5 L4,15.75 Z M4,13.25 L12.75,13.25 L12.75,12 L4,12 L4,13.25 Z M4,10.75 L12.75,10.75 L12.75,9.5 L4,9.5 L4,10.75 Z M4,8.25 L12.75,8.25 L12.75,7 L4,7 L4,8.25 Z" id="Fill-5" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

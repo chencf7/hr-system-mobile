@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>设备信息ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -163.000000)">
+            <rect id="Rectangle-5" fill="#EBF4F9" fill-rule="nonzero" x="0" y="66" width="375" height="1067"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="154" width="375" height="40"></rect>
+            <g id="Group-5" transform="translate(20.000000, 163.000000)">
+                <path d="M17.1428571,0 L2.85714286,0 C1.27928571,0 0,1.2313125 0,2.75 L0,19.25 C0,20.7686875 1.27928571,22 2.85714286,22 L17.1428571,22 C18.7207143,22 20,20.7686875 20,19.25 L20,2.75 C20,1.2313125 18.7207143,0 17.1428571,0 Z" id="Fill-1" fill="#F14648"></path>
+                <path d="M4.28571429,14.2857143 L10,14.2857143 L10,12.8571429 L4.28571429,12.8571429 L4.28571429,14.2857143 Z M4.28571429,11.4285714 L15.7142857,11.4285714 L15.7142857,10 L4.28571429,10 L4.28571429,11.4285714 Z M4.28571429,8.57142857 L15.7142857,8.57142857 L15.7142857,7.14285714 L4.28571429,7.14285714 L4.28571429,8.57142857 Z M4.28571429,5.71428571 L15.7142857,5.71428571 L15.7142857,4.28571429 L4.28571429,4.28571429 L4.28571429,5.71428571 Z" id="Fill-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="358px" height="222px" viewBox="0 0 358 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>卡片列表背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8" y="7" width="342" height="206" rx="5"></rect>
+        <filter x="-3.7%" y="-5.6%" width="107.3%" height="112.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.539461097   0 0 0 0 0.539461097   0 0 0 0 0.539461097  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-03-列表" transform="translate(-9.000000, -118.000000)">
+            <g id="Group-5" transform="translate(9.000000, 118.000000)">
+                <g id="卡片列表背景">
+                    <g id="列表背景" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M316.833333,139.586417 C316.833333,148.084083 309.9205,155 301.41975,155 L292.166667,155 L292.166667,74.8333333 L212,74.8333333 L212,65.58025 C212,57.0825833 218.912833,50.1666667 227.413583,50.1666667 L316.833333,50.1666667 L316.833333,139.586417 Z M286,170.36425 C286,178.895833 279.0625,185.833333 270.530917,185.833333 L181.166667,185.833333 L181.166667,96.4135833 C181.166667,87.9159167 188.0795,81 196.58025,81 L286,81 L286,170.36425 Z M227.413583,44 C215.515,44 205.833333,53.6816667 205.833333,65.58025 L205.833333,74.8333333 L196.58025,74.8333333 C184.681667,74.8333333 175,84.515 175,96.4135833 L175,192 L270.530917,192 C282.463417,192 292.166667,182.29675 292.166667,170.36425 L292.166667,161.166667 L301.41975,161.166667 C313.318333,161.166667 323,151.485 323,139.586417 L323,44 L227.413583,44 Z" id="Fill-1" fill="#F9F9F9"></path>
+                    <rect id="Rectangle-3" fill="#F4F4F4" fill-rule="nonzero" x="8" y="173" width="342" height="40" rx="5"></rect>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="26" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="44" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="62" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="80" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="98" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="116" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="134" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="152" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="170" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="188" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="206" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="224" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="242" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="260" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="278" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="296" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="314" cy="172" r="5"></circle>
+                    <circle id="Oval" fill="#F4F4F4" fill-rule="nonzero" cx="332" cy="172" r="5"></circle>
+                    <rect id="Rectangle-4" fill="#F4F4F4" fill-rule="nonzero" x="8" y="171" width="342" height="7"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

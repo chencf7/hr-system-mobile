@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>危险作业</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="功能页" transform="translate(-27.000000, -283.000000)">
+            <g id="危险作业" transform="translate(27.000000, 283.000000)">
+                <rect id="Rectangle-5" fill="#E04B58" fill-rule="nonzero" x="0" y="0" width="55" height="55" rx="27.5"></rect>
+                <path d="M28.02228,11 L13.0000578,37 L43.0445022,37 L28.02228,11 Z M28.02228,13.3290222 L41.05348,35.8444444 L14.99108,35.8444444 L28.02228,13.3290222 Z" id="Fill-1" fill="#FFFFFF"></path>
+                <polygon id="Fill-2" fill="#FFFFFF" points="28.8888889 20.8222222 27.1555556 20.8222222 27.4444444 28.9111111 28.6 28.9111111"></polygon>
+                <path d="M28.0222222,30.6444444 C27.3843556,30.6444444 26.8666667,31.1621333 26.8666667,31.8 C26.8666667,32.4378667 27.3843556,32.9555556 28.0222222,32.9555556 C28.6600889,32.9555556 29.1777778,32.4378667 29.1777778,31.8 C29.1777778,31.1621333 28.6600889,30.6444444 28.0222222,30.6444444" id="Fill-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

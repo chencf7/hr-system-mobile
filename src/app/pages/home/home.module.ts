@@ -6,11 +6,25 @@ import { RouterModule, Routes } from '@angular/router';
 import {NgZorroAntdMobileModule} from 'ng-zorro-antd-mobile';
 
 import { HomePage } from './home.page';
+import {FunctionComponent} from './function/function.component';
+import { MyComponent } from './my/my.component';
+
 
 const routes: Routes = [
   {
     path: '',
-    component: HomePage
+    component: HomePage,
+    children: [{
+      path: 'function',
+      component: FunctionComponent
+    }, {
+      path: 'my',
+      component: MyComponent
+    }, {
+      path: '',
+      redirectTo: '/home/function',
+      pathMatch: 'full'
+    }]
   }
 ];
 
@@ -22,6 +36,6 @@ const routes: Routes = [
     NgZorroAntdMobileModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, FunctionComponent, MyComponent]
 })
 export class HomePageModule {}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>安全验收</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16 16 37.6666667 16 37.6666667 41.9999458 16 41.9999458"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="功能页" transform="translate(-27.000000, -441.000000)">
+            <g id="安全验收" transform="translate(27.000000, 441.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle-5" fill="#84CC6B" fill-rule="nonzero" x="0" y="0" width="55" height="55" rx="27.5"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M36.5833333,27.1750708 C36.5833333,36.6991958 28.231375,40.3121125 26.8382083,40.8483625 C25.5024583,40.3066958 17.0833333,36.5166542 17.0833333,27.1750708 L17.0833333,18.8929875 L26.8333333,17.1000708 L36.5833333,18.8929875 L36.5833333,27.1750708 Z M26.8333333,15.9999458 L16,17.9927375 L16,27.1750708 C16,38.0246542 26.5451667,41.8986542 26.651875,41.9365708 L26.8311667,41.9999458 L27.0104583,41.9376542 C27.1171667,41.9008208 37.6666667,38.1248625 37.6666667,27.1750708 L37.6666667,17.9927375 L26.8333333,15.9999458 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+                <polygon id="Fill-4" fill="#FFFFFF" points="22.612125 26.9915 21.8462083 27.7563333 26.86475 32.76675 32.44825 23.1169583 31.5100833 22.5758333 26.632375 31.0057917"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>租赁单位ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -576.000000)">
+            <g id="租凭单位ico" transform="translate(20.000000, 576.000000)">
+                <path d="M0.9,1.8 L19.1,1.8 L19.1,0.9 L0.9,0.9 L0.9,1.8 Z M20,0 L0,0 L0,2.7 L1,2.7 L1,18.45 C1,20.187 2.57,21.6 4.5,21.6 L15.5,21.6 C17.43,21.6 19,20.187 19,18.45 L19,2.7 L20,2.7 L20,0 Z" id="Fill-7" fill="#68B075"></path>
+                <text id="租" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="5" y="16">租</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

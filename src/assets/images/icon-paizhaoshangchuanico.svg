@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>拍照上传ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备飞检-02-图标版" transform="translate(-20.000000, -910.000000)">
+            <g id="拍照上传ico" transform="translate(20.000000, 910.000000)">
+                <path d="M0,18.8333333 L20,18.8333333 L20,3 L0,3 L0,18.8333333 Z M8.26291667,10.5179167 L11.3320833,16.0229167 L13.2904167,13.3479167 L15.94875,18 L4.04625,18 L8.26291667,10.5179167 Z" id="Fill-1" fill="#81CC6E"></path>
+                <path d="M15.625,10.0833333 C16.65875,10.0833333 17.5,9.24208333 17.5,8.20833333 C17.5,7.17458333 16.65875,6.33333333 15.625,6.33333333 C14.59125,6.33333333 13.75,7.17458333 13.75,8.20833333 C13.75,9.24208333 14.59125,10.0833333 15.625,10.0833333" id="Fill-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

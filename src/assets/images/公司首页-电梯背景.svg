@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="50px" viewBox="0 0 170 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>公司首页-电梯背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="170" height="50" rx="5"></rect>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20、项目首页" transform="translate(-192.000000, -923.000000)">
+            <g id="公司首页-电梯背景" transform="translate(192.000000, 923.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#EDF3FF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group-6" mask="url(#mask-2)" fill="#D7E0F4">
+                    <g transform="translate(11.000000, 19.000000)">
+                        <path d="M18.5882353,32.4705882 L5.41176471,32.4705882 C3.59538824,32.4705882 2.11764706,30.8872941 2.11764706,28.9411765 L2.11764706,19.7647059 L21.8823529,19.7647059 L21.8823529,28.9411765 C21.8823529,30.8872941 20.4046118,32.4705882 18.5882353,32.4705882 Z M2.11764706,18.3529412 L21.8823529,18.3529412 L21.8823529,1.41176471 L2.11764706,1.41176471 L2.11764706,18.3529412 Z M0,0 L0,28.9411765 C0,31.6658824 2.21717647,33.8823529 4.94117647,33.8823529 L19.0588235,33.8823529 C21.7828235,33.8823529 24,31.6658824 24,28.9411765 L24,0 L0,0 Z" id="Fill-1"></path>
+                        <polygon id="Fill-3" points="18 15 20 15 20 9 18 9"></polygon>
+                        <polygon id="Fill-5" points="18 27 20 27 20 21 18 21"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

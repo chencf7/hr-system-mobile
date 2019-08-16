@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>我的-待验收</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 32 28 32 28 0 0 0"></polygon>
+    </defs>
+    <g id="中建" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10、我的" transform="translate(-127.000000, -181.000000)">
+            <g id="待验收" transform="translate(127.000000, 181.000000)">
+                <g id="Group-5" transform="translate(4.000000, 0.000000)">
+                    <path d="M26,0 L2,0 C0.895,0 0,0.896 0,2 L0,10 L2,10 L2,2 L26,2 L26,30 L2,30 L2,22 L0,22 L0,30 C0,31.105 0.895,32 2,32 L26,32 C27.105,32 28,31.105 28,30 L28,2 C28,0.896 27.105,0 26,0" id="Fill-1" fill="#B0BEC5"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <path d="M20,26 L22,26 L22,6 L20,6 L20,26 Z M18,28 L24,28 L24,4 L18,4 L18,28 Z" id="Fill-3" fill="#C5E1A5" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 8.000000)" fill="#89C149">
+                    <path d="M16.1406,0.586 C15.3616,-0.195 14.0936,-0.195 13.3126,0.586 L6.2426,7.656 L3.4136,4.828 C2.6326,4.047 1.3656,4.047 0.5856,4.828 C-0.1954,5.609 -0.1954,6.877 0.5856,7.656 L4.8276,11.899 C5.6076,12.68 6.8746,12.68 7.6566,11.899 L16.1406,3.414 C16.9216,2.633 16.9216,1.365 16.1406,0.586" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
