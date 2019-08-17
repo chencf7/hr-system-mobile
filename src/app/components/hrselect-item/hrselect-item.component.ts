@@ -7,6 +7,7 @@ import { Component,
   HostListener,
   EventEmitter,
 } from '@angular/core';
+import { CommonpopupService } from 'src/app/services/commonpopup.service';
 
 @Component({
   selector: 'app-hrselect-item',
@@ -49,7 +50,7 @@ export class HrselectItemComponent implements OnInit {
   // 当shuangxdataChange值变化时，就把shuangxdataChange值发射给父组件。
   @Output('shuangxdataChange') crtitemdataChange=new EventEmitter();
 
-  // 弹出框输入类型
+  // 输入类型
   @Input('hrselectcode') _thisitemcode; 
 
   @Input()
@@ -128,7 +129,7 @@ export class HrselectItemComponent implements OnInit {
   }
 
 
-  constructor() { }
+  constructor(private popupCtrl: CommonpopupService) { }
 
   ngOnInit() {
     debugger;
@@ -187,8 +188,20 @@ export class HrselectItemComponent implements OnInit {
     };
   }
 
+  // 组件绑定的点击事件
   onItemClick(ev){
     this.onClick.emit(ev);
+    this.innerItemClick();
+  }
+  // 组件内部根据hrselectcode判断执行的点击事件
+  async innerItemClick(){
+    if(this._thisitemcode){
+      const data = await this.popupCtrl.popup(this._thisitemcode);
+      debugger;
+      if (data.role === 'ok') {
+        console.log();
+      }
+    }
   }
 
 }
