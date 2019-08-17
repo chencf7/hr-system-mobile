@@ -7,7 +7,7 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./addleave.page.scss'],
 })
 export class AddleavePage implements OnInit {
-
+  qfrdata: any;
   constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
@@ -15,5 +15,7 @@ export class AddleavePage implements OnInit {
   // 返回
   goBack(){
     this.navCtrl.navigateBack('/home/function').then();
+  }
+  hrSelectClick(){
   }
 }

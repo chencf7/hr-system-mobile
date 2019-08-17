@@ -1,4 +1,12 @@
-import { Component, OnInit, TemplateRef } from '@angular/core';
+import { Component,
+  OnInit,
+  TemplateRef,
+  HostBinding, 
+  Input,
+  Output,
+  HostListener,
+  EventEmitter,
+} from '@angular/core';
 
 @Component({
   selector: 'app-hrselect-item',
@@ -34,6 +42,91 @@ export class HrselectItemComponent implements OnInit {
   private _disabled: boolean = false;
   private _className: string = '';
   private _active: boolean = false;
+  private _title: string='';
+
+  @Input() shuangxdata;
+  // 暴露shuangxdataChange属性
+  // 当shuangxdataChange值变化时，就把shuangxdataChange值发射给父组件。
+  @Output('shuangxdataChange') crtitemdataChange=new EventEmitter();
+
+  // 弹出框输入类型
+  @Input('hrselectcode') _thisitemcode; 
+
+  @Input()
+  get thumb() {
+    return this._thumb;
+  }
+  get thumb_component() {
+    return this._thumb_component;
+  }
+  get thumb_src() {
+    return this._thumb_src;
+  }
+  set thumb(value: string|TemplateRef<any>){
+    if (value instanceof TemplateRef) {
+      this._thumb_component = true;
+      this._thumb = value;
+    } else {
+      this._thumb_component = false;
+      this._thumb_src = <string>value;
+    }
+  }
+
+  @Input()
+  set title(value: string){
+    this._title=value;
+  }
+
+  @Input()
+  get extra() {
+    return this._extra;
+  }
+  get extra_component() {
+    return this._extra_component;
+  }
+  get extra_title() {
+    return this._extra_title;
+  }
+  set extra(value: string|TemplateRef<any>){
+    if(value instanceof TemplateRef){
+      this._extra_component = true;
+      this._extra = value;
+    }else{
+      this._extra_component = false;
+      this._extra_title = <string>value;
+    }
+  }
+
+  // 此处必须声明get arrow()，组件类HrselectItemComponent才有arrow属性
+  @Input()
+  get arrow(){
+    return this._arrow;
+  }
+  set arrow(value) {
+    this._arrow = value;
+    this.setClsMap();
+  }
+  // 声明绑定组件点击事件，定义一个发射器对象（其实是一个observers数组），事件点击后使用emit触发
+  @Output()
+  onClick: EventEmitter<any> = new EventEmitter<any>();
+
+  // 给组件名添加默认的class，将this.wrapCls（类名）绑定到当前声明的组件上，
+  // 即<app-selecthr-item [ngClass]="this.wrapCls"></app-selecthr-item>
+  // 其他方法绑定默认的class
+  // 方式一：使用@Component的host属性
+  // 方式二：在样式里使用:host选择器
+  // 参考：https://majing.io/posts/10000009911171
+  @HostBinding('class')
+  get bingClassName(): string {
+    return this.wrapCls;
+  }
+
+  // 给默认组件名称绑定click事件
+  @HostListener('click', ['$event'])
+  click(event){
+    this.onItemClick(event);
+  }
+
 
   constructor() { }
 
@@ -82,7 +175,8 @@ export class HrselectItemComponent implements OnInit {
     this.lineCls = {
       [`${this.defaultProps.prefixCls}-line`]: true,
       [`${this.defaultProps.prefixCls}-line-multiple`]: this.defaultProps.multipleLine,
-      [`${this.defaultProps.prefixCls}-line-wrap`]: this.defaultProps.wrap
+      [`${this.defaultProps.prefixCls}-line-wrap`]: this.defaultProps.wrap,
+      ['hrselect-item']: true,
     };
 
     this.arrowCls = {
@@ -91,6 +185,10 @@ export class HrselectItemComponent implements OnInit {
       [`${this.defaultProps.prefixCls}-arrow-vertical`]: this._arrow === 'down' || this._arrow === 'up',
       [`${this.defaultProps.prefixCls}-arrow-vertical-up`]: this._arrow === 'up'
     };
+  }
+
+  onItemClick(ev){
+    this.onClick.emit(ev);
   }
 
 }

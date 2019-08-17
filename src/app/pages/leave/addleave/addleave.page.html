@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="function-content">
-  <List [renderHeader]=(renderHeader4)>
+  <List>
     <ListItem 
       [thumb]="'https://zos.alipayobjects.com/rmsportal/dNuvNrtqUztHCwM.png'" 
       [arrow]="'horizontal'"
@@ -24,8 +24,13 @@
     >
       My Cost Ratio
     </ListItem>
-    <app-hrselect-item>
-      My Cost Ratio
+    <app-hrselect-item
+      [hrselectcode]="'alert_leavetype'"
+      [title]="'请输入标题'"
+      [arrow]="'horizontal'"
+      [extra]="'extra content深度；熟练地开始；的离开深度；了是；龙多靠'"
+      [(shuangxdata)]="qfrdata"
+    >
     </app-hrselect-item>
   </List>
 </ion-content>
