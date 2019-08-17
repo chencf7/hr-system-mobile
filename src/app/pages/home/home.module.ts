@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
-import {NgZorroAntdMobileModule} from 'ng-zorro-antd-mobile';
+import { NgZorroAntdMobileModule } from 'ng-zorro-antd-mobile';
 
 import { HomePage } from './home.page';
-import {FunctionComponent} from './function/function.component';
+import { FunctionComponent } from './function/function.component';
 import { MyComponent } from './my/my.component';
 
 

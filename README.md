@@ -2,9 +2,9 @@
 
 ### 创建并初始化ionic项目
 1. ionic start 你的project名字 [blank|tabs|] [--type=angular|ionic-angular]
-使用 --type option to start projects using older versions of Ionic. 
-For example, you can start an Ionic 3 project with --type=ionic-angular. 
-Use --list to see all project types and templates.
++ 使用 --type option to start projects using older versions of Ionic. 
++ For example, you can start an Ionic 3 project with --type=ionic-angular. 
++ Use --list to see all project types and templates.
 初始化ionic项目过程中一路选择N
 
 2. 使用ionic或者ng脚手架，创建component、page等内容时，不想生成测试模块spec.ts
@@ -97,3 +97,9 @@ css文件内部不允许直接使用深度选择器
 
 安装node-sass报错的话，换淘宝镜像安装，或者使用cnpm install node-sass --save-dev
 最好node-sass声明在依赖文件package.json内
+
+10.  angular相关指令的概念 
++ ng-content
+> +<ng-content> 不会 "产生" 内容，它只是投影现有的内容。
+> +你可以认为它等价于 node.appendChild(el) 或 jQuery 中的 $(node).append(el) 方法：使用这些方法，节点不被克隆，它被简单地移动到它的新位置。因此，投影内容的生命周期将被绑定到它被声明的地方，而不是显示在地方。
+> +<ng-content>是代指使用组件时内部的东西。其还有一个select属性，来选择投影的内容

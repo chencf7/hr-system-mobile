@@ -9,5 +9,23 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="function-content">
-
+  <List [renderHeader]=(renderHeader4)>
+    <ListItem 
+      [thumb]="'https://zos.alipayobjects.com/rmsportal/dNuvNrtqUztHCwM.png'" 
+      [arrow]="'horizontal'"
+      (onClick)="onClick()"
+    >
+      My wallet
+    </ListItem>
+    <ListItem 
+      [thumb]="'https://zos.alipayobjects.com/rmsportal/UmbJMbWOejVOpxe.png'" 
+      (onClick)="onClick()"
+      [arrow]="'horizontal'"
+    >
+      My Cost Ratio
+    </ListItem>
+    <app-hrselect-item>
+      My Cost Ratio
+    </app-hrselect-item>
+  </List>
 </ion-content>
