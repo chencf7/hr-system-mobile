@@ -1,7 +1,7 @@
 import { Component,
   OnInit,
   TemplateRef,
-  HostBinding, 
+  HostBinding,
   Input,
   Output,
   HostListener,
@@ -45,13 +45,14 @@ export class HrselectItemComponent implements OnInit {
   private _active: boolean = false;
   private _title: string='';
 
+  // 输入类型
+  @Input() type;
+  @Input('code') _thatitemcode; 
+
   @Input() shuangxdata;
   // 暴露shuangxdataChange属性
   // 当shuangxdataChange值变化时，就把shuangxdataChange值发射给父组件。
   @Output('shuangxdataChange') crtitemdataChange=new EventEmitter();
-
-  // 输入类型
-  @Input('hrselectcode') _thisitemcode; 
 
   @Input()
   get thumb() {
@@ -132,7 +133,6 @@ export class HrselectItemComponent implements OnInit {
   constructor(private popupCtrl: CommonpopupService) { }
 
   ngOnInit() {
-    debugger;
     this.defaultProps.rippleStyle = { display: 'none' };
     this.setClsMap();
   }
@@ -190,17 +190,17 @@ export class HrselectItemComponent implements OnInit {
 
   // 组件绑定的点击事件
   onItemClick(ev){
+    // 触发父组件调用事件，父组件调用声明onClick属性，该属性是一个observal观察对象，emit即为触发订阅动作
     this.onClick.emit(ev);
     this.innerItemClick();
   }
   // 组件内部根据hrselectcode判断执行的点击事件
   async innerItemClick(){
-    if(this._thisitemcode){
-      const data = await this.popupCtrl.popup(this._thisitemcode);
-      debugger;
-      if (data.role === 'ok') {
-        console.log();
-      }
+    if(this._thatitemcode){
+      const data = await this.popupCtrl.popup(this._thatitemcode);
+      console.log(data);
+      // if (data.role === 'ok') {
+      // }
     }
   }
 

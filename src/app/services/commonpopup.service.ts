@@ -12,19 +12,38 @@ export class CommonpopupService {
     private modalCtrl: ModalController) { }
 
   async popup(popupcode){
-    const alert = await this.alertCreate(popupcode);
+    //const alert = await this.alertCreate(popupcode);
+    const alert = await this.alertCtrl.create({
+      'mode': "ios",
+      'header': popupDataMap.get(popupcode).header,
+      'buttons': popupDataMap.get(popupcode).data.map(b => {
+        return {
+          text: b.value,
+          handler: () => {
+            alert.dismiss('123', 'ok');
+          }
+        };
+      }).concat({
+        role: 'cancel',
+        text: '取消'
+      })
+    });
     await alert.present();
-    return alert.onDidDismiss();
+    return alert.onWillDismiss();
   }
 
   private async alertCreate(alertCode: string) {
     const alert = await this.alertCtrl.create({
-      header: popupDataMap.get(alertCode).header,
-      buttons: popupDataMap.get(alertCode).data.map(b => {
+      'mode': "ios",
+      'header': popupDataMap.get(alertCode).header,
+      'buttons': popupDataMap.get(alertCode).data.map(b => {
         return {
-          text: b.value, handler: () => {
-            this.alertHandlerOk(alert, {name: b.value});
-          }
+          text: b.value,
+          handler: () => alert.dismiss('ooo', 'ok').then()
+          // handler: () => {
+          //   alert.dismiss('ooo', 'ok').then();
+          //   // this.alertHandlerOk(alert, {name: b.value});
+          // }
         };
       }).concat({
         role: 'cancel',
@@ -35,7 +54,6 @@ export class CommonpopupService {
   }
   // alert弹窗确定点击
   private alertHandlerOk(alertEl: HTMLIonAlertElement, d: any){
-    debugger;
     alertEl.dismiss(d, 'ok').then();
   }
 }
