@@ -31,7 +31,7 @@
   }
 }
 
-// 深度选择器无效，直接正常使用，不用深度选择器 >>> === /deep/
+// 深度选择器无效，直接正常使用，深度选择器需要安装node-sass >>> === /deep/
 .function-content .am-grid{
   height: 200px;
 }
