@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
-  { path: 'leave', loadChildren: './leave/leave.module#LeavePageModule' },
+  { path: 'leave', loadChildren: './leave/leave.module#LeaveModule' },
   { path: 'test', loadChildren: './test/test.module#TestPageModule' },
 ];
 
