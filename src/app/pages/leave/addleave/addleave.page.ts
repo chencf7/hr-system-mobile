@@ -18,4 +18,7 @@ export class AddleavePage implements OnInit {
   }
   hrSelectClick(){
   }
+  onClick(){
+    console.log('123');
+  }
 }

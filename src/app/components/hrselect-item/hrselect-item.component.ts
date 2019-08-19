@@ -1,20 +1,28 @@
 import { Component,
   OnInit,
+  AfterContentChecked,
   TemplateRef,
   HostBinding,
   Input,
   Output,
   HostListener,
   EventEmitter,
+  forwardRef,
 } from '@angular/core';
+import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { CommonpopupService } from 'src/app/services/commonpopup.service';
 
 @Component({
   selector: 'app-hrselect-item',
   templateUrl: './hrselect-item.component.html',
   styleUrls: ['./hrselect-item.component.scss'],
+  providers: [{
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: forwardRef(() => HrselectItemComponent),
+    multi: true
+  }]
 })
-export class HrselectItemComponent implements OnInit {
+export class HrselectItemComponent implements OnInit, ControlValueAccessor{
   // 初始默认属性
   defaultProps = {
     prefixCls: 'am-list',
@@ -44,15 +52,55 @@ export class HrselectItemComponent implements OnInit {
   private _className: string = '';
   private _active: boolean = false;
   private _title: string='';
+  private _sxdata: any;
+  // 实现ngModel双向绑定
+  private _inner_value: any = '';
+  private onChangeCallback: (value: any) => void = function () { };
+  private onTouchedCallback: () => void = function () { };
+  
+  @Input()
+  get value(): any {
+    return this._inner_value;
+  }
+  set value(v: any) {
+    if (v !== this._inner_value) {
+      this._inner_value = v;
+      this.onChangeCallback(v);
+    }
+  }
+  /**
+ *  model view -> view value
+ */
+  writeValue(value: any):void {
+    if (value !== this._inner_value) {
+      this._inner_value = value;
+    }
+  }
+  /**
+ * view value ->model value
+ */
+  registerOnChange(fn: any): void {
+    this.onChangeCallback = fn;
+  }
+  registerOnTouched(fn: any): void { }
 
   // 输入类型
   @Input() type;
-  @Input('code') _thatitemcode; 
+  @Input('code') _code; 
 
-  @Input() shuangxdata;
-  // 暴露shuangxdataChange属性
-  // 当shuangxdataChange值变化时，就把shuangxdataChange值发射给父组件。
-  @Output('shuangxdataChange') crtitemdataChange=new EventEmitter();
+  // 实现数据的双向绑定，使用[(sxdata)]
+  @Input()
+  get sxdata() {
+    return this._sxdata;
+  }
+  set sxdata(val) {
+    this._sxdata = val;
+    this.sxdataChange.emit(this._sxdata);
+  }
+  // 暴露sxdataChange属性
+  // 当sxdataChange值变化时，就把sxdataChange值发射给父组件。
+  //@Output('sxdataChange') sxdataChange:EventEmitter<any> = new EventEmitter<any>();
+  @Output() sxdataChange:EventEmitter<any> = new EventEmitter<any>();
 
   @Input()
   get thumb() {
@@ -129,7 +177,6 @@ export class HrselectItemComponent implements OnInit {
     this.onItemClick(event);
   }
 
-
   constructor(private popupCtrl: CommonpopupService) { }
 
   ngOnInit() {
@@ -196,11 +243,23 @@ export class HrselectItemComponent implements OnInit {
   }
   // 组件内部根据hrselectcode判断执行的点击事件
   async innerItemClick(){
-    if(this._thatitemcode){
-      const data = await this.popupCtrl.popup(this._thatitemcode);
-      console.log(data);
-      // if (data.role === 'ok') {
-      // }
+    if(this._code){
+      const data = await this.popupCtrl.popup(this._code);
+      if(data.role){
+        if (data.role==='ok') {
+          return;
+        }
+        if (data.role==='cancel'){ return; }
+        if (data.role==='backdrop'){ return; }
+        if(/^\{\"role\":\"暂时替代方案\"/.test(data.role)){
+          const ret = JSON.parse(data.role);
+          if(ret.role==='暂时替代方案'){
+            // 给sxdata赋值，会自动触发set sxdata(){}方法
+            this.sxdata = ret.data;
+            this.writeValue(ret.data);
+          }
+        }
+      }
     }
   }
 
