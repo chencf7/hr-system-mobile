@@ -1,4 +1,46 @@
-<ion-content class="hr-login-c">
+<section id="console_login">
+  <div class="logo">
+    <a href="#" class="logo_text">
+      <img src="assets/icon/hrsystem.ico" alt="logo">
+    </a>
+  </div>
+  <div class="login_body">
+    <!-- BEGIN LOGIN FORM -->
+    <form class="login_form" id="login" action="https://console.zaarapp.com/users/login" method="post"
+      autocomplete="off" novalidate="novalidate">
+
+      <div class="error text-center" id="form-error"></div>
+      <div class="form-group">
+        <div class="input_ico">
+          <i class="fa fa-user"></i>
+          <input class="form-control placeholder-no-fix username" type="email" autofocus="" value="" autocomplete="off"
+            placeholder="Email address" name="identity">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input_ico">
+          <i class="fa fa-lock"></i>
+          <input class="form-control placeholder-no-fix password" type="password" maxlength="32" autocomplete="off"
+            placeholder="Password" name="password" id="password">
+        </div>
+      </div>
+      <div class="form-group">
+      </div>
+      <div class="login_action">
+        <button type="submit" id="login-submit" class="btn btn-blue pull-right" name="login">
+          <span class="submit-text"> Login <i class="icon_right white_ico"></i></span>
+          <img src="assets/images/loader.gif" alt="loader" class="form-loader hidden">
+        </button>
+      </div>
+    </form>
+    <!-- END LOGIN FORM -->
+  </div>
+  <div class="copyright">
+    Copyright © 2019 <a href="http://www.zaarapp.com/"> ZAAR Technologies</a>
+  </div>
+</section>
+
+<!-- <ion-content class="hr-login-c">
   <div class="hr-login-b">
     <div class="top">
       <div class="row1">
@@ -19,4 +61,4 @@
       </div>
     </div>
   </div>
-</ion-content>
+</ion-content> -->
