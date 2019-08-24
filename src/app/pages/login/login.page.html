@@ -17,7 +17,13 @@
               </path>
             </svg>
           </i>
-          <input class="form-control" autofocus="" value="" placeholder="Email address" name="username">
+          <!-- <input class="form-control" autofocus="" value="" name="username"> -->
+          <input class="form-control input-ctrl" 
+            value=""
+            name="username"
+            (change)="loginunchange($event, 'un')">
+          <span class="input-addon" [ngClass]="u_class">
+            <label class="input-desp">请输入用户名</label></span>
         </div>
       </div>
       <div class="form-group">
@@ -28,11 +34,17 @@
               </path>
             </svg>
           </i>
-          <input class="form-control" type="password" maxlength="32" placeholder="Password" name="password" id="password">
+          <input class="form-control input-ctrl"
+            type="password"
+            maxlength="32"
+            name="password"
+            (change)="loginpwchange($event, 'pw')">
+          <span class="input-addon" [ngClass]="p_class">
+            <label class="input-desp">请输入密码</label></span>
         </div>
       </div>
       <div class="login-action">
-        <button type="submit" id="login-submit" class="btn btn-blue pull-right" name="login">
+        <button type="submit" id="login-submit" class="btn btn-blue pull-right" style="background: #46bc91; cursor: pointer;">
           <span class="submit-text">登录</span>
           <img src="assets/images/loader.gif" alt="loader" class="form-loading hidden">
         </button>
