@@ -1,64 +1,46 @@
-<section id="console_login">
-  <div class="logo">
-    <a href="#" class="logo_text">
+<section class="hr-login">
+  <div class="logo-img">
+    <a href="javascript:void(0)">
       <img src="assets/icon/hrsystem.ico" alt="logo">
     </a>
+    <span class="login-text">人力资源系统</span>
   </div>
-  <div class="login_body">
+  <div class="login-body">
     <!-- BEGIN LOGIN FORM -->
-    <form class="login_form" id="login" action="https://console.zaarapp.com/users/login" method="post"
-      autocomplete="off" novalidate="novalidate">
-
+    <form class="login-form" id="login" action="" method="post" autocomplete="off" novalidate="novalidate">
       <div class="error text-center" id="form-error"></div>
       <div class="form-group">
-        <div class="input_ico">
-          <i class="fa fa-user"></i>
-          <input class="form-control placeholder-no-fix username" type="email" autofocus="" value="" autocomplete="off"
-            placeholder="Email address" name="identity">
+        <div class="input-ico">
+          <i class="i-svg">
+            <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1505">
+              <path d="M511.193635 0c-281.853319 0-511.172145 229.318826-511.172145 511.172145 0 122.9441 44.262086 241.750973 124.655068 334.530053 97.223299 112.271016 238.114143 176.642093 386.517077 176.642093 281.853319 0 511.172145-229.318826 511.172145-511.172145S793.046954 0 511.193635 0zM511.193635 973.661521c-109.490693 0-214.055191-39.274492-296.768007-108.639303 21.999037-146.970306 147.913794-256.483512 297.956066-256.483512 148.259672 0 273.390577 105.971543 297.566186 251.972778 0.13917 0.844228 0.651846 1.497097 0.871857 2.307555C730.023572 931.768389 625.484657 973.661521 511.193635 973.661521zM511.193635 559.854914c-89.593528 0-162.475442-72.881914-162.475442-162.450882 0-89.593528 72.881914-162.475442 162.475442-162.475442 89.568968 0 162.450882 72.881914 162.450882 162.475442C673.644517 486.973 600.762603 559.854914 511.193635 559.854914zM851.710029 823.041082C821.72511 704.982246 733.565235 613.695147 621.191888 577.280796c60.540841-37.158295 101.135398-103.775528 101.135398-179.876764 0-116.430756-94.703919-211.158211-211.134675-211.158211s-211.158211 94.727455-211.158211 211.158211c0 76.508511 41.041742 143.431713 102.128005 180.469258C289.565978 615.089913 201.836915 707.670471 172.708504 825.465295c-3.678786-3.959172-7.682983-7.538697-11.234879-11.640108-72.715115-83.935668-112.769366-191.404308-112.769366-302.653041 0-255.016091 207.473285-462.489376 462.489376-462.489376S973.683011 256.157078 973.683011 511.172145C973.683011 631.401414 927.181931 740.706889 851.710029 823.041082z">
+              </path>
+            </svg>
+          </i>
+          <input class="form-control" autofocus="" value="" placeholder="Email address" name="username">
         </div>
       </div>
       <div class="form-group">
-        <div class="input_ico">
-          <i class="fa fa-lock"></i>
-          <input class="form-control placeholder-no-fix password" type="password" maxlength="32" autocomplete="off"
-            placeholder="Password" name="password" id="password">
+        <div class="input-ico">
+          <i class="i-svg">
+            <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1376">
+              <path d="M800 416l0-128c0-159.072-128.928-288-288-288s-288 128.928-288 288l0 128c-53.024 0-96 42.976-96 96l0 224c0 159.072 128.928 288 288 288l192 0c159.072 0 288-128.928 288-288l0-224c0-53.056-43.008-96-96-96zM288 288c0-123.712 100.288-224 224-224s224 100.288 224 224l0 128-64 0 0-127.936c0-88.384-71.616-160-160-160s-160 71.616-160 160l0 127.936-64 0 0-128zM640 288l0 128-256 0 0-128c0-70.688 57.312-128 128-128s128 57.312 128 128zM832 608l0 128c0 123.488-100.512 224-224 224l-192 0c-123.488 0-224-100.512-224-224l0-224c0-17.664 14.336-32 32-32 21.344 0 42.656 0 64 0l448 0c21.312 0 42.624 0 64 0 17.632 0 32 14.336 32 32l0 96zM512 608c35.328 0 64 28.64 64 64 0 19.488-10.496 56.576-21.312 85.824-8.736 23.616-17.664 42.112-42.688 42.112-23.008 0-33.952-18.688-42.656-42.432-10.688-29.184-21.344-66.08-21.344-85.504 0-35.36 28.672-64 64-64z">
+              </path>
+            </svg>
+          </i>
+          <input class="form-control" type="password" maxlength="32" placeholder="Password" name="password" id="password">
         </div>
       </div>
-      <div class="form-group">
-      </div>
-      <div class="login_action">
+      <div class="login-action">
         <button type="submit" id="login-submit" class="btn btn-blue pull-right" name="login">
-          <span class="submit-text"> Login <i class="icon_right white_ico"></i></span>
-          <img src="assets/images/loader.gif" alt="loader" class="form-loader hidden">
+          <span class="submit-text">登录</span>
+          <img src="assets/images/loader.gif" alt="loader" class="form-loading hidden">
         </button>
       </div>
     </form>
     <!-- END LOGIN FORM -->
   </div>
   <div class="copyright">
-    Copyright © 2019 <a href="http://www.zaarapp.com/"> ZAAR Technologies</a>
+    Copyright © 2019 <a href="javascript:void(0)"> 中建三局总承包公司</a>
   </div>
 </section>
-
-<!-- <ion-content class="hr-login-c">
-  <div class="hr-login-b">
-    <div class="top">
-      <div class="row1">
-        <span>登&nbsp;录</span>
-      </div>
-      <div class="row2">
-        <figure>
-          <img src="assets/icon/hrsystem.ico" alt="人资icon">
-          <div>
-            人力资源系统
-          </div>
-        </figure>
-      </div>
-    </div>
-    <div class="middle">
-      <div style="margin: 0 50px;height: 225px; background:#fff;">
-
-      </div>
-    </div>
-  </div>
-</ion-content> -->
